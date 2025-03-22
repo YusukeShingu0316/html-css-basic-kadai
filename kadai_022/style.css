@@ -23,10 +23,9 @@ h1{
     margin: 0px;
     color: rgb(255, 255, 255);
 }
-h2{
+.contents h2::before{
     font-size: 25px;
     border-bottom: 3px dotted rgb(236, 122, 122); 
-    before{content:"&#8226; ";}
     }
     .contents p:nth-of-type(2)::first-letter {
         color: rgb(97, 206, 249);
@@ -76,5 +75,4 @@ a:hover {
       display: flex;
       flex-direction: column;
     }
-  }
-
+  
